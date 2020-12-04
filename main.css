@@ -16,6 +16,9 @@ blockquote p {
   border-radius: 5px;
   color: gray;
 }
-blockquote p::before, blockquote p::after {
-  content: '"';
+blockquote p::before {
+  content: "\201C";
+}
+blockquote p::after {
+  content: "\201D";
 }
