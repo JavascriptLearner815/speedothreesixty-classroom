@@ -17,5 +17,5 @@ blockquote p {
   color: gray;
 }
 blockquote p::before, blockquote p::after {
-  content: "\"";
+  content: '"';
 }
