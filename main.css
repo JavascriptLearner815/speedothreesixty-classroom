@@ -6,3 +6,6 @@ aside {
   justify-content: right;
   align-items: right;
 }
+nav {
+  display: inline-block;
+}
