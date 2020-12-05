@@ -1,6 +1,5 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background: firebrick;
 }
 aside {
   text-align: right;
@@ -32,5 +31,11 @@ a:hover {
   text-decoration: underline;
 }
 textarea:focus {
-  background: firebrick;
+  background: cyan;
+}
+textarea:invalid {
+  border: 2px dashed red;
+}
+textarea:valid {
+  border: 2px solid lime;
 }
