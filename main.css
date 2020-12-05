@@ -5,7 +5,12 @@ aside {
   text-align: right;
 }
 nav {
-  display: inline-block;
+  display: inline;
+  margin: 0;
+  padding: 5px 0 5px 30px;
+}
+nav a {
+  margin-right: 20px;
 }
 blockquote {
   margin: 0;
