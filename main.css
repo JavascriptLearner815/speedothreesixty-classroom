@@ -1,5 +1,6 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
+  background: firebrick;
 }
 aside {
   text-align: right;
@@ -29,4 +30,7 @@ a {
 }
 a:hover {
   text-decoration: underline;
+}
+textarea:focus {
+  background: firebrick;
 }
