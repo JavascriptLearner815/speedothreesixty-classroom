@@ -33,9 +33,9 @@ a:hover {
 textarea:focus {
   background: cyan;
 }
-textarea:invalid, textarea:focus:invalid {
+textarea:invalid, textarea:invalid:focus {
   border: 2px dashed red;
 }
-textarea:valid, textarea:focus:valid {
+textarea:valid, textarea:valid:focus {
   border: 2px solid lime;
 }
