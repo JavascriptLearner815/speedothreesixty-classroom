@@ -32,10 +32,11 @@ a:hover {
 }
 textarea:focus {
   background: cyan;
+  outline: none;
 }
-textarea:invalid, textarea:invalid:focus {
+textarea:invalid {
   border: 2px dashed red;
 }
-textarea:valid, textarea:valid:focus {
+textarea:valid {
   border: 2px solid lime;
 }
