@@ -45,6 +45,10 @@ textarea:invalid {
 textarea:valid {
   border: 2px solid lime;
 }
+figure {
+  margin: 0;
+  padding: 0;
+}
 figure blockquote + figcaption::before {
   content: "\2014";
 }
