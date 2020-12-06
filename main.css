@@ -17,6 +17,9 @@ body {
   background-size: cover;
   background-position: center;
 }
+.avatar::before {
+  content: attr(data-tooltip, "Avatar Image");
+}
 aside {
   text-align: right;
 }
