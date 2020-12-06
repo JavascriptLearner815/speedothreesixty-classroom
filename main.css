@@ -36,7 +36,7 @@ a:hover {
   text-decoration: underline;
 }
 textarea:focus {
-  background: cyan;
+  background: sienna;
   outline: none;
 }
 textarea:invalid {
