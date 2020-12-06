@@ -17,6 +17,7 @@ blockquote {
   padding: 0;
 }
 blockquote p {
+  padding: 15px;
   background: #EEE;
   border-radius: 5px;
   color: gray;
