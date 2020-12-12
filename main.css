@@ -104,7 +104,7 @@ details > div {
 details[open] > summary::after {
   content: "-";
 }
-.unselectable {
+.unselectable, textarea[readonly] {
   -moz-user-select: none;
   -webkit-user-select: none;
   -ms-user-select: none;
