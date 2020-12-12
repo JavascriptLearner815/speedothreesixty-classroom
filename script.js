@@ -1,1 +1,4 @@
-console.log("Your user agent will be logged just after this message.", `${navigator.userAgent}.`);
+let readonlyTextareas = document.querySelectorAll("textarea[readonly]");
+for (let readonlyTextarea of readonlyTextareas) {
+  readonlyTextarea.classList.add("unselectable");
+}
