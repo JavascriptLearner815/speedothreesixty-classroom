@@ -45,6 +45,7 @@ textarea {
 }
 textarea[readonly]:hover {
   cursor: pointer;
+  user-select: none;
 }
 textarea:focus {
   background: sienna;
