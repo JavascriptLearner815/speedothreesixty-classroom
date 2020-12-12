@@ -43,18 +43,18 @@ a:hover {
 textarea {
   box-shadow: 3px 3px 4px black;
 }
+textarea[readonly]:hover {
+  cursor: pointer;
+}
 textarea:focus {
   background: sienna;
   outline: none;
 }
 textarea:invalid {
-  border: 2px dashed red;
+  border: 5px dashed red;
 }
 textarea:valid {
-  border: 2px solid lime;
-}
-textarea[readonly]:hover {
-  cursor: pointer;
+  border: 5px solid lime;
 }
 figure {
   margin: 0;
