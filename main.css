@@ -97,3 +97,6 @@ details > div {
 details[open] > summary::after {
   content: "-";
 }
+iframe {
+  box-shadow: 3px 3px 4px black;
+}
