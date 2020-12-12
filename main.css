@@ -87,7 +87,7 @@ details > summary::after {
   text-align: center;
   width: 30px;
 }
-details > p {
+details > div {
   border-radius: 0 0 10px 10px;
   background: #DDD;
   padding: 2px 6px;
