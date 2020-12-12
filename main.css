@@ -53,6 +53,9 @@ textarea:invalid {
 textarea:valid {
   border: 2px solid lime;
 }
+textarea[readonly]:hover {
+  cursor: pointer;
+}
 figure {
   margin: 0;
   padding: 0;
