@@ -100,7 +100,7 @@ details > summary::after {
 }
 details > div {
   border-radius: 0 0 10px 10px;
-  width: calc(inherit - 6px);
+  width: inherit;
   background: #DDD;
   padding: 2px 6px;
   margin: 0;
@@ -108,6 +108,9 @@ details > div {
 }
 details[open] > summary::after {
   content: "-";
+}
+details > details > div, details > details > summary, details > details {
+  width: calc(inherit - 6px);
 }
 .unselectable {
   -moz-user-select: none;
