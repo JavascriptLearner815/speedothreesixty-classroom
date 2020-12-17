@@ -109,9 +109,6 @@ details > div {
 details[open] > summary::after {
   content: "-";
 }
-details > details > div, details > details > summary, details > details {
-  width: calc(inherit - 6px);
-}
 .unselectable {
   -moz-user-select: none;
   -webkit-user-select: none;
