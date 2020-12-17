@@ -100,7 +100,7 @@ details > summary::after {
 }
 details > div {
   border-radius: 0 0 10px 10px;
-  width: inherit - 6px;
+  width: calc(inherit - 6px);
   background: #DDD;
   padding: 2px 6px;
   margin: 0;
