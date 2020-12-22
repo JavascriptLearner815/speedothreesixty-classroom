@@ -17,9 +17,9 @@ navigator.mediaDevices.getUserMedia(
     }
   }
 )
-  .then((stream) => {
+  .then(stream => {
     webcam.srcObject = stream
   })
-  .catch(err) => {
+  .catch(err => {
     console.error(err)
   })
