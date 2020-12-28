@@ -6,12 +6,12 @@ navigator.mediaDevices.getUserMedia(
     video: {
       width: {
         min: 360,
-        ideal: 720,
+        ideal: 800,
         max: 1920
       },
       height: {
         min: 360,
-        ideal: 560,
+        ideal: 550,
         max: 1920
       }
     }
