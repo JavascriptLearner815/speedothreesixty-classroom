@@ -6,10 +6,13 @@ body {
   background: sienna;
   color: mediumorchid;
 }
+main {
+  float: right;
+}
 aside {
   padding: 0;
   margin: 1px;
-  text-align: right;
+  float: left;
 }
 nav {
   display: inline;
