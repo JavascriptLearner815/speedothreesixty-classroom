@@ -3,6 +3,8 @@
 }
 body {
   font-family: Arial, Helvetica, sans-serif;
+  background: sienna;
+  color: white;
 }
 aside {
   padding: 0;
@@ -51,7 +53,7 @@ textarea[readonly]:hover {
   cursor: pointer;
 }
 textarea:focus {
-  background: sienna;
+  background: yellow;
   outline: none;
 }
 textarea:invalid {
