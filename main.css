@@ -72,10 +72,10 @@ figure {
 figure blockquote + figcaption::before {
   content: "\2014";
 }
-figure blockquote + figcaption.group {
+figure blockquote + figcaption.group::after {
   color: red;
 }
-figure blockquote + figcaption.group-1 {
+figure blockquote + figcaption.group-1::after {
   content: "*";
 }
 pre.group::before {
