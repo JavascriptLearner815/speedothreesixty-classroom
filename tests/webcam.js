@@ -5,14 +5,14 @@ navigator.mediaDevices.getUserMedia(
     audio: false,
     video: {
       width: {
-        min: 360,
+        min: 240,
         ideal: 800,
-        max: 1920
+        max: 2098
       },
       height: {
-        min: 360,
-        ideal: 550,
-        max: 1920
+        min: 240,
+        ideal: 650,
+        max: 2098
       }
     }
   }
