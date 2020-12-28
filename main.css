@@ -81,6 +81,9 @@ figure blockquote + figcaption.group-1::after {
 pre.group::before {
   color: red;
 }
+pre.group::before::after {
+  content: "\2014";
+}
 pre.group-1::before {
   content: "*";
 }
