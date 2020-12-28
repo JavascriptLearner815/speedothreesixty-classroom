@@ -6,13 +6,9 @@ body {
   background: sienna;
   color: mediumorchid;
 }
-main:not(aside) {
-  float: right;
-}
 aside {
   padding: 0;
   margin: 1px;
-  float: left !important;
 }
 nav {
   display: inline;
