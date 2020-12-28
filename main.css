@@ -72,6 +72,18 @@ figure {
 figure blockquote + figcaption::before {
   content: "\2014";
 }
+figure blockquote + figcaption.group {
+  color: red;
+}
+figure blockquote + figcaption.group-1 {
+  content: "*";
+}
+pre.group::before {
+  color: red;
+}
+pre.group-1::before {
+  content: "*";
+}
 details {
   width: 620px;
   box-shadow: 3px 3px 4px black;
