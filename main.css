@@ -7,12 +7,12 @@ body {
   color: mediumorchid;
 }
 main {
-  float: right;
+  text-align: right;
 }
 aside {
   padding: 0;
   margin: 1px;
-  float: left;
+  text-align: left;
 }
 nav {
   display: inline;
