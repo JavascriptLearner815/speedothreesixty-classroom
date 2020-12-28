@@ -6,7 +6,7 @@ body {
   background: sienna;
   color: mediumorchid;
 }
-main.not(aside) {
+main:not(aside) {
   text-align: right;
 }
 aside {
