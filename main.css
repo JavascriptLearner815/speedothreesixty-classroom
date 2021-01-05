@@ -139,3 +139,8 @@ details[open] > summary::after {
   -o-user-select: all;
   user-select: all;
 }
+dfn {
+  text-decoration: underline dotted;
+  font-style: normal;
+  font-weight: bolder;
+}
