@@ -43,7 +43,6 @@ a:hover {
 }
 a:active {
   color: purple;
-  text-decoration: underline;
 }
 textarea {
   box-shadow: 3px 3px 4px black;
