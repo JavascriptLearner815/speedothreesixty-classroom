@@ -3,6 +3,8 @@
 }
 body {
   font-family: Arial, Helvetica, sans-serif;
+  background: chocolate;
+  color: darkgray;
 }
 aside {
   padding: 0;
