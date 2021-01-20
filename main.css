@@ -35,14 +35,14 @@ blockquote p::after {
   content: "\201D";
 }
 a {
-  color: blue;
+  color: cadetblue;
   text-decoration: none;
 }
 a:hover {
   text-decoration: underline;
 }
 a:active {
-  color: purple;
+  color: mediumorchid;
 }
 textarea {
   box-shadow: 3px 3px 4px black;
@@ -51,7 +51,7 @@ textarea[readonly]:hover {
   cursor: pointer;
 }
 textarea:focus {
-  background: yellow;
+  background: orangered;
   outline: none;
 }
 textarea:invalid {
