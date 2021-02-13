@@ -124,6 +124,11 @@ details > div {
 details[open] > summary::after {
   content: "-";
 }
+dfn {
+  text-decoration: underline dotted;
+  font-style: normal;
+  font-weight: bolder;
+}
 .unselectable {
   -moz-user-select: none;
   -webkit-user-select: none;
@@ -138,8 +143,56 @@ details[open] > summary::after {
   -o-user-select: all;
   user-select: all;
 }
-dfn {
-  text-decoration: underline dotted;
-  font-style: normal;
-  font-weight: bolder;
+/**
+  * Source altered from https://jsfiddle.net/nqQc7/512/
+  **/
+.shine {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  line-height: 50px;
+  margin: 25px 0 25px 25px;
+  font-size: 12px;
+}
+/**
+  * Shiny portion
+  **/
+.shine::after {
+  animation: shine 2s ease-in-out infinite;
+  animation-fill-mode: forwards;
+  content: "";
+  position: absolute;
+  top: -110%;
+  left: -210%;
+  width: 200%;
+  height: 200%;
+  opacity: 0;
+  transform: rotate(30deg);
+  background: rgba(153, 50, 204, 0.13);
+  background: linear-gradient(
+    to right,
+    rgba(153, 50, 204, 0.13) 0%,
+    rgba(153, 50, 204, 0.13) 77%,
+    rgba(153, 50, 204, 0.5) 92%,
+    rgba(153, 50, 204, 0) 100%
+  );
+}
+.shine:active::after {
+  opacity: 0;
+}
+@keyframes shine {
+  10% {
+    opacity: 1;
+    top: -30%;
+    left: -30%;
+    transition-property: left, top, opacity;
+    transition-duration: 1s, 1s, 0.5s;
+    transition-timing-function: ease;
+  }
+  100% {
+    opacity: 0;
+    top: -30%;
+    left: -30%;
+    transition-property: left, top, opacity;
+  }
 }
