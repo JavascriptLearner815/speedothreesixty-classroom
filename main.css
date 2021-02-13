@@ -143,3 +143,6 @@ dfn {
   font-style: normal;
   font-weight: bolder;
 }
+li {
+  margin-left: 20px;
+}
