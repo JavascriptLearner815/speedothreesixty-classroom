@@ -144,5 +144,5 @@ dfn {
   font-weight: bolder;
 }
 li {
-  margin-left: 20px;
+  margin-left: 20px; /* Split the list position indicator from the list item's content */
 }
