@@ -143,6 +143,3 @@ dfn {
   font-style: normal;
   font-weight: bolder;
 }
-li {
-  margin-left: 20px; /* Split the list position indicator from the list item's content */
-}
