@@ -164,7 +164,7 @@ dfn {
   * Shiny portion
   **/
 .shine::after {
-  animation: shine 2s ease-in-out infinite;
+  animation: shine 0.7s ease-in-out infinite;
   animation-fill-mode: forwards;
   content: "";
   position: absolute;
@@ -192,7 +192,7 @@ dfn {
     top: -30%;
     left: -30%;
     transition-property: left, top, opacity;
-    transition-duration: 1s, 1s, 0.5s;
+    transition-duration: 0.7s, 0.7s, 0.15s;
     transition-timing-function: ease;
   }
   100% {
