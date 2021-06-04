@@ -13,7 +13,8 @@ navigator.mediaDevices.getUserMedia(
         min: 240,
         ideal: 650,
         max: 2098
-      }
+      },
+      facingMode: "user"
     }
   }
 )
