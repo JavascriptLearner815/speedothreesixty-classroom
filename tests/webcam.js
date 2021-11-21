@@ -10,7 +10,7 @@ if (navigator.mediaDevices.getUserMedia === undefined) {
     if (!getUserMedia) {
       return Promise.reject(new Error("getUserMedia is not implemented in this browser"))
     }
-    return new Promise(function(resolve, reject) {
+    return new Promise(function(resolve, reject)) {
       getUserMedia.call(navigator, constraints, resolve, reject)
     }
   }
